@@ -1,0 +1,165 @@
+.top-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.drawer-div {
+    background-color: red !important;
+}
+
+.card1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(20, 20, 141);
+}
+
+.button-hover:hover {
+    background-color: blue !important;
+}
+
+.customer-chart {
+    display: grid;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.inner-card-content-4 {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.combo-div {
+    /* width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 0px solid;
+    background-color: #FAFBFF; */
+
+    width: 100px;
+    background-color: #FAFBFF;
+    border: 0px solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.table-style {
+    display: flex;
+    align-items: center;
+}
+
+.avtar-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-left: -10px;
+
+}
+
+.chart-12,
+.chart-11,
+.chart-10,
+.chart-9,
+.chart-8,
+.chart-7,
+.chart-6,
+.chart-5,
+.chart-4,
+.chart-3,
+.chart-2,
+.chart-1 {
+    width: 40px;
+    height: 100px;
+    background-color: rgba(202, 214, 213, 0.74);
+    border-radius: 10px;
+    margin: 2px;
+}
+
+.graph-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.table-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.search {
+    width: 100px;
+    background-color: #FFFFFF;
+    border: 0px solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.search1 {
+    width: 100px;
+    background-color: #FAFBFF;
+    border: 0px solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:600px) {
+    .table-div{
+        width: 600px;
+    }
+
+    .chart-12,
+    .chart-11,
+    .chart-10,
+    .chart-9,
+    .chart-8,
+    .chart-7,
+    .chart-6,
+    .chart-5,
+    .chart-4,
+    .chart-3,
+    .chart-2,
+    .chart-1 {
+        width: 10px;
+    }
+}
+
+.table-div{
+    background-color: red;
+    
+}
+@media screen and (max-width:400px) {
+    .top-title {
+        display: grid;
+        justify-content: start;
+        align-items: center;
+    }
+    .table-div{
+        width: 300px;
+    }
+
+    .chart-12,
+    .chart-11,
+    .chart-10,
+    .chart-9,
+    .chart-8,
+    .chart-7,
+    .chart-6,
+    .chart-5,
+    .chart-4,
+    .chart-3,
+    .chart-2,
+    .chart-1 {
+        width: 5px;
+    }
+}
